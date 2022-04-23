@@ -1,0 +1,7 @@
+
+[mysql]
+db="message_center"
+port=3306
+host="18.18.100.2"
+username = "viptest"
+password = "viptest_2017"

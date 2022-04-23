@@ -1,0 +1,66 @@
+{
+	"kafka": {
+		"kafkaProducer": [
+			{
+				"brokerList": [
+					{
+						"host": "192.168.40.132",
+						"port": 9092
+					},
+					{
+						"host": "192.168.40.142",
+						"port": 9092
+					}
+				]
+			}
+		]
+	},
+	"mysql": {
+		"message_centerDB-master": [
+			{
+				"host": "18.18.100.2",
+				"port": 3306,
+				"username": "viptest",
+				"password": "viptest_2017",
+				"db": "message_center",
+				"version": [
+					"*"
+				]
+			}
+		],
+		"message_centerDB-slave1": [
+			{
+				"host": "18.18.100.2",
+				"port": 3306,
+				"username": "viptest",
+				"password": "viptest_2017",
+				"db": "message_center",
+				"version": [
+					"*"
+				]
+			}
+		]
+	},
+	"rabbitmq": {
+		"queue": [
+			{
+				"host": "test.rabbitmq.miaokecloud.com",
+				"port": 5672,
+				"login": "mqadmin",
+				"password": "mqadmin"
+			}
+		]
+	},
+	"redis": {
+		"redisClient": [
+			{
+				"host": "test.redis.miaokecloud.com",
+				"port": 6379,
+				"database": 0,
+				"version": [
+					"*"
+				]
+			}
+		]
+	}
+}
